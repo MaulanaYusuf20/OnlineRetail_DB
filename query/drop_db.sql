@@ -1,0 +1,3 @@
+DROP DATABASE online_retail;
+
+SHOW DATABASES;
