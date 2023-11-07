@@ -25,7 +25,7 @@ CREATE TABLE orders (
     customer_id INT NOT NULL,
     product_id INT NOT NULL,
     quantity INT NOT NULL,
-    total_price INT NOT NULL,
+    price INT NOT NULL,
     order_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (customer_id) REFERENCES customers(id), 
     FOREIGN KEY (product_id) REFERENCES products(id)
